@@ -143,12 +143,9 @@ The dashboard enables leadership to answer:
 
 ### 🟦 C. CUSTOMER TRUST COLLAPSE
 - **Ratings fell sharply** after the crisis.
-- **Repeat order frequency** declined significantly.
+- A **large portion of customers stopped ordering altogether** post-June 2025.
 - Customer sentiment score dropped **from +0.7 → –0.3**.
 - Trust erosion became a **compounding effect** driven primarily by poor delivery experience.
-
----
-
 
 ---
 
@@ -162,6 +159,3 @@ The dashboard enables leadership to answer:
 - **Text Sentiment Classification**  
 
 ---
-
-## 📁 Project Structure
-
