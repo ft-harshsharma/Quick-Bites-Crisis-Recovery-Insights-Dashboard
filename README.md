@@ -49,9 +49,9 @@ The dashboard enables leadership to answer:
 ## 🛠️ Power BI Modeling & Key DAX Measures
 
 ### **Time Intelligence Measures**
-- MoM Sales %  
-- QoQ Sales %  
-- Last 3 Months vs Previous 3 Months  
+- Vs last Month %  
+- Vs last Quarter %  
+- Last 3 Months vs Previous 3 Months
 - Pre-Crisis vs Post-Crisis performance  
 
 ### **Customer Measures**
@@ -67,135 +67,88 @@ The dashboard enables leadership to answer:
 - Decline segmentation buckets  
 
 ### **Delivery Partner Measures**
-- SLA %  
-- On-Time Delivery %  
+- SLA %    
 - Late order count  
-- SLA buckets (0–25 / 25–50 / 50–75 / 75–100)  
+- SLA buckets ( 0 / 1–25 / 25–50 / 50–75 / 75–100)  
 
 ---
 
 ## 📊 Dashboard Sections
 
-### **1️⃣ Executive Overview**
+### **1️⃣ Executive Overview and Customer Insights**
 - Total orders trend  
 - Sales trend  
-- AOV  
+- AOV, ADS
 - Cancellations  
 - Sentiment & ratings  
-- Month-over-month changes  
-
----
-
-### **2️⃣ Customer Insights**
+- Month-over-month changes
 - Recovery segmentation (High / Moderate / Low)  
 - Customer churn distribution  
 - Top cuisines ordered  
 - Negative feedback categories  
-- Sentiment trend over time  
+- Customer detail table 
 
 ---
 
-### **3️⃣ Restaurant Insights**
+### **2️⃣ Food Partner Insights**
+
+- Total and Active Food Partners
+- Restaurants and Cloud Kitchen
+- Food Partners across cities
+- All Cuisines
 - Composite Decline Scores  
-- Top declining restaurants  
+- Top declining restaurants  (Decline Distribution across Food Partners)
 - Sentiment banding  
-- Cuisine performance  
-- Pre vs post crisis revenue  
+- Food Item performance  
+- Pre vs post crisis revenue
+- Food Partners detail table
 
 ---
 
-### **4️⃣ Delivery Partner Insights**
-- SLA % distribution  
-- Delivery partner rating analysis  
-- Late order count  
-- SLA buckets segmentation  
-- Vehicle type & city performance  
+### **3️⃣ Delivery Partner Insights**
+
+- Delivery Partners (Active, Full-Time, Part-Time, Contract )
+- Overall SLA (Total Orders, On-time Orders, Late Orders)
+- Delivery Partners vehicle type
+- Delivery Partners per city
+- SLA % Trend and Distribution  
+- Negative Feedback Trend
+- Delivery Partner detail table
 
 ---
 
-### **5️⃣ Sentiment & Ratings**
-- Sentiment score shift (0.7 → -0.3 post-crisis)  
-- Text feedback analysis  
-- Cold food, late delivery, food quality spikes  
-- Negative review trend  
 
----
-
-### **6️⃣ Crisis Impact Summary**
-- Orders pre/post crisis  
-- Revenue shift  
-- Delivery SLA collapse (43% → 12%)  
-- Negatives reviews surge  
-- Restaurant decline distribution  
-
----
-
-### **7️⃣ Recommended Strategy**
-
-## **Pillar 1 — Customer Recovery**
-
-### 1. Personalized Win-Back Campaigns  
-- Target 170 high & 45,237 moderate recoverable customers  
-- Send cuisine-based & restaurant-based offers  
-- Promote frequently ordered items (lassi, biryani, chai)
-
-### 2. Restore Trust  
-- “Hot & Fresh Guarantee”  
-- Quality badges  
-- Highlight positive-sentiment restaurants  
-
-### 3. Restaurant Recovery  
-- Promote top 200 declining food partners  
-- Reassess low sentiment restaurants  
-- Introduce hygiene & packaging checks  
-
----
-
-## **Pillar 2 — SLA & Operations Recovery**
-
-### 1. Improve Delivery Workforce  
-- Remove low-SLA partners (3.4k in 0–25%)  
-- Incentivize mid performers (25–50%)  
-- Premium bonuses for 75–100% SLA performers  
-
-### 2. Fix Delivery Operations  
-- Thermal packaging rollout  
-- Route optimization  
-- Peak-hour workforce reinforcement  
-- SLA recalibration  
-
-### 3. Packaging & Food Quality  
-- Mandatory heat-retaining packaging  
-- Replace restaurants with repeated food quality issues  
-- Introduce packaging compliance score  
 
 ---
 
 ## 🚀 Key Insights
 
-### 📉 Delivery Performance Is the Root Cause  
-- SLA dropped from 43% → 12%  
-- Cold food + late delivery complaints surged  
-- Delivery partners heavily skewed to low performance  
+### 🟥 A. DELIVERY FAILURE — PRIMARY DRIVER
+- SLA dropped **from 43% → 12%** post-crisis.
+- High concentration of **low-performing delivery partners**.
+- Sharp increase in **late delivery complaints**.
+- Strong **cold food + late delivery correlation**.
+- Delivery inefficiency appears to be the **primary root cause** of the crisis impact.
 
-### 💬 Customer Sentiment Crashed  
-- Sentiment fell from 0.7 → -0.3  
-- Negative reviews tripled  
-- Food quality & cold food dominated complaints  
+---
 
-### 🧑‍🍳 Restaurants Are Mostly Victims  
-- 7,000 affected restaurants  
-- Majority have positive sentiment  
-- Indicates failure in delivery operations, not food quality  
+### 🟧 B. FOOD QUALITY FAILURE — SECONDARY DRIVER
+- Surge in **Bad Food Quality**, **Cold Food**, and **Packaging Issues** complaints — even from **active loyal customers**.
+- However, the **majority of food partners have positive sentiment**, indicating:
+  - They were **not** the main cause.
+  - Their perceived quality suffered because delivery delays **amplified dissatisfaction**.
+- Food issues acted as a **secondary accelerator**, not the origin point.
 
-### 🛵 Delivery Workforce Issues  
-- 3.4k riders with <25% SLA  
-- Only 301 reliable SLA performers  
+---
 
-### 🛒 Customer Behaviour Changed  
-- Drop in ordering frequency  
-- Mild dip in AOV  
-- Trust erosion across high-value customers  
+### 🟦 C. CUSTOMER TRUST COLLAPSE
+- **Ratings fell sharply** after the crisis.
+- **Repeat order frequency** declined significantly.
+- Customer sentiment score dropped **from +0.7 → –0.3**.
+- Trust erosion became a **compounding effect** driven primarily by poor delivery experience.
+
+---
+
 
 ---
 
